@@ -1,7 +1,7 @@
 # arduinounomidi
 Use an arduino uno as midi device
 
-##requirements:
+## requirements
 * Breadboard;
 * 2 20k 3 pin potentiometers;
 * 2 Smd buttons;
@@ -12,7 +12,7 @@ Use an arduino uno as midi device
 * Python ([Download](https://www.python.org/downloads/));
 * LoopMIDI ([Download](https://www.tobias-erichsen.de/software/loopmidi.html)).
 
-##Setup:
+## Setup
 
 1. Install python **ALSO ON PATH**, arduino IDE, LoopMIDI and restart the pc.
 2. Download the source code and extract it.
