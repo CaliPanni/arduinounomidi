@@ -7,5 +7,6 @@ requirements:
 * Arduino Uno;
 * 2 10kohms resistors;
 * 9 Jumper files M-M;
-* Arduino IDE;
-* Python.
+* Arduino IDE ([Download](https://www.arduino.cc/en/software));
+* Python ([Download](https://www.python.org/downloads/));
+* LoopMIDI ([Download](https://www.tobias-erichsen.de/software/loopmidi.html));
