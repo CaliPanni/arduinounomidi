@@ -11,6 +11,7 @@ Use an arduino uno as midi device
 * Arduino IDE ([Download](https://www.arduino.cc/en/software));
 * Python ([Download](https://www.python.org/downloads/));
 * LoopMIDI ([Download](https://www.tobias-erichsen.de/software/loopmidi.html)).
+&nbsp;
 ##Setup:
 &nbsp;
 1. Install python **ALSO ON PATH**, arduino IDE, LoopMIDI and restart the pc.
@@ -23,9 +24,11 @@ pip install -r requirements.txt
 4. Create new virtual midi port with LoopMIDI.
 5. Open midi.ino and Flash it into the Arduino uno board.
 6. Disconnect the board and make connections as in the photo:
+   &nbsp;
    ![connections](https://github.com/CaliPanni/arduinounomidi/blob/main/circuito_potenziometro.png?raw=true)
 7. Edit *serial2midi.py* with the Arduino com port and the name of the virtual midi port.
   *If you don't know the name of the midi port, double click on* `getmidi.py`.
+&nbsp;
   ![getmidy.py](https://github.com/CaliPanni/arduinounomidi/blob/main/getmidi.png?raw=true)
 8. Run the command prompt on the source code dir and type:
  ```
@@ -33,5 +36,7 @@ python serial2midi.py
 
 ```
 or just dubleclick it.
+&nbsp;
 9. Map the midi to the program you want to use.
+&nbsp;
 10. Enjoy!
