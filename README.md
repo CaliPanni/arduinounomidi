@@ -30,6 +30,7 @@ pip install -r requirements.txt
   *If you don't know the name of the midi port, double click on* `getmidi.py`.
 
   ![getmidy.py](https://github.com/CaliPanni/arduinounomidi/blob/main/getmidi.png?raw=true)
+
 8. Run the command prompt on the source code dir and type:
  ```
 python serial2midi.py
